@@ -11,7 +11,7 @@ output:
     css: ["css/yellow.css", "css/yellow-fonts.css"]
     lib_dir: libs
     nature:
-      ratio: '4:3'
+      ratio: 16:9'
       beforeInit: "https://platform.twitter.com/widgets.js"
       highlightStyle: github
       highlightLines: true
@@ -41,7 +41,12 @@ library(widgetframe)
 ---
 class: bg_green, center, middle
 
-# Já parou pra pensar nos documentos digitalizados que vc tem no seu computador?
+# O que são seus documentos digitalizados?
+
+---
+class: bg_yellow, center, middle
+
+## Só isso aqui:
 
 ```{r, out.width="60%"}
 knitr::include_graphics("https://media3.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif?cid=ecf05e47u4xhsv4oujiw88w6q10ep42jk3yc1zg0efavj2p6&rid=giphy.gif&ct=g")
