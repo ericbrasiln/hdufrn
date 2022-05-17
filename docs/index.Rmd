@@ -1,0 +1,316 @@
+---
+title: "A Hemeroteca Digital Brasileira e a pesquisa em história"
+subtitle: "<br>reflexões sobre teoria e prática"
+description: "Apresentação no evento e-história da educação (UFRN)"
+author: "<br>Eric Brasil (IHLM/UNILAB)<br>"
+date: "17 de maio de 2022"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["css/yellow.css", "css/yellow-fonts.css"]
+    lib_dir: libs
+    nature:
+      ratio: '4:3'
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
+---
+layout: true
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+	echo = FALSE,
+	fig.align = "center",
+	message = FALSE,
+	warning = FALSE,
+	cache = FALSE
+)
+```
+
+```{r eval=FALSE, include=FALSE}
+library(knitr)
+library(tidyverse)
+library(widgetframe)
+```
+---
+class: bg_green, center, middle
+
+# Já parou pra pensar nos documentos digitalizados que vc tem no seu computador?
+
+```{r, out.width="60%"}
+knitr::include_graphics("https://media3.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif?cid=ecf05e47u4xhsv4oujiw88w6q10ep42jk3yc1zg0efavj2p6&rid=giphy.gif&ct=g")
+```
+
+---
+class: bg_yellow, center, middle
+
+### - Como o processo de digitalização afeta sua pesquisa?
+<br>
+
+--
+### - Seus dados digitai são acessados, lidos e trabalhados emulando práticas analógicas?
+<br>
+
+--
+### - Você já comprendeu "como suas fontes digitais foram criadas, e como ficaram disponíveis para você" (BLANEY, et al. 2021. p. 44)
+
+---
+class: bg_yellow, center, middle
+
+## Compreender esse processo deve ser tarefa básica em nossa profissão.
+
+```{r, out.width="50%"}
+knitr::include_graphics("https://media3.giphy.com/media/f1UH5LwVuWucM/giphy.gif?cid=ecf05e47kx6wnnnf9m6wg9c8k4a1cpe9kprem9pun2rglbxu&rid=giphy.gif&ct=g")
+```
+
+---
+class: bg_yellow, center, middle
+
+## E as interfaces gráficas (GUI)?
+<br>
+
+--
+### Difícil avaliar precisamente o que você está pesquisando, acessando e  quais as escolhas técnicas e teóricas por trás dos resultados mostrados na tela.
+<br>
+
+--
+### Quão representativos são no conjunto de dados?
+<br>
+
+--
+### Elas restringem suas perguntas ou abrem possibilidades de novas?
+---
+class: bg_yellow, center, middle
+
+### "os métodos de pesquisa digital criam demandas novas e às vezes mais rigorosas de precisão, pensamento metodológico, auto-organização e colaboração do que a pesquisa histórica tradicional" (FRIDLUND; OIVA; PAJU, 2020, pos. 543)
+
+---
+class: bg_yellow, center, middle
+
+## Literacia Arquivística Digital
+
+```{r, out.width="60%"}
+knitr::include_graphics("https://i.giphy.com/media/Xch9I90tRezyicQgma/giphy.webp")
+```
+
+---
+class: bg_yellow, center, middle
+
+### "A literacia arquivística digital requer a compreensão de como a produção de arquivos digitais se baseia em designs técnicos que influenciam a sua usabilidade. Isso significa que (todos) os historiadores precisam adquirir competência digital em um nível profissional paralelo às habilidades que temos em compreender como a classificação e categorização de fontes afetam nossa interação com arquivos analógicos e moldam nossas questões de pesquisa. (JENSEN, 2021, p. 6)"
+
+---
+class: bg_green, center, middle
+# A Hemeroteca Digital Brasileira
+
+---
+class: bg_yellow, middle, center
+
+## - Difusão da HDB nas pesquisas em história
+<br>
+--
+
+### - Acesso aos periódicos remotamente 
+<br>
+--
+
+### - Salvar imagens
+<br>
+--
+
+### - Busca por palavras
+<br>
+
+---
+class: bg_yellow, middle, center
+
+## Mas e as citações?
+<br>
+
+--
+### Sem padrão e sem transparência  
+
+---
+class: bg_yellow, middle, center
+
+## O caso dos papers da Anpuh
+<br>
+
+### Pesquisa realizada por Ana Carolina Veloso, bolsista PIBIC / FAPESB.
+
+### Para mais informações [clique aqui](https://ericbrasiln.github.io/pibic_2020-2021/hdb/)
+
+---
+class: bg_yellow, middle, center
+
+## Papers publicados nos Anais dos SNH da Anpuh com ocorrências dos termos vínculados à HDB por evento
+
+```{r, out.width="80%"}
+knitr::include_graphics("https://github.com/ericbrasiln/Historia_Digital_BN/blob/main/docs/img/newplot(2).png?raw=true")
+```
+
+---
+class: bg_yellow, middle, center
+
+## Padrões de utilização dos termos vínculados à HDB nas citações encontradas
+
+```{r, out.width="80%"}
+knitr::include_graphics("https://github.com/ericbrasiln/Historia_Digital_BN/blob/main/docs/img/newplot(1).png?raw=true")
+```
+
+---
+class: bg_yellow, middle, center
+
+## Mas a interface gráfica da HDB gera impactos epistemológicos?
+
+```{r, out.width="40%"}
+knitr::include_graphics("https://media1.giphy.com/media/l0G18BkChcRRctMZ2/giphy.gif?cid=ecf05e47t260cnzpmxpl6hdbkvnvjbxm88mgbopxoknjnt26&rid=giphy.gif&ct=g")
+```
+---
+class: bg_yellow, middle, center
+### - Parâmetros de busca 
+<br>
+
+--
+### - Padrão de resultados
+<br>
+
+--
+### - OCR, XML, Metadados?
+<br>
+
+
+---
+class: bg_green, center, middle
+
+# Como enfrentar esses desafios?
+
+
+```{r, out.width="50%"}
+knitr::include_graphics("https://raw.githubusercontent.com/ericbrasiln/ferramentas_digitais_UNILAB/master/docs/gifs/math.gif")
+```
+---
+class: bg_yellow, center, middle
+
+## Registro de procedimentos metodológicos?
+<br>
+
+--
+### - Rigor da documentação e registro de todas as etapas da pesquisa;
+<br>
+
+--
+### - Preservação (como os dados podem ser mantidos para uso no futuro);
+<br>
+
+--
+### - Transparência metodológica completa;
+<br>
+
+--
+### - Avaliação crítica das decisões técnicas e políticas imiscuídas nas interfaces e acervos.
+
+---
+class: bg_yellow, center, middle
+
+## Para onde podemos avançar? Seremos, então, todos programadores?
+
+```{r, out.width="60%"}
+knitr::include_graphics("https://i.giphy.com/media/aNqEFrYVnsS52/giphy.webp")
+```
+
+---
+class: bg_yellow, center, middle
+### - Potencial de pesquisas com técnicas de DH: *distant reading, NLP, NER*;
+<br>
+
+--
+### - Transparência e abertura de códigos e decisões;
+<br>
+
+--
+### - Financiamento público;
+<br>
+
+--
+### - Diálogo e trabalho interdisciplinar.
+
+---
+class: bg_yellow, middle, center
+
+## [Clique aqui](biblio.html) para acessar a bibliografia usada nessa apresentação
+<br>
+
+## E acesse nossa biblioteca de referências `História Digital`no Zotero, [clicando aqui](https://www.zotero.org/groups/2216280/histria_digital/library).
+---
+class: bg_yellow, middle, center
+
+## Eric Brasil
+<br>
+
+### Email: [profericbrasil@unilab.edu.br](mailto:profericbrasil@unilab.edu.br)
+
+### GitHub: [ericbrasiln](https://github.com/ericbrasiln/)
+
+### Twitter: [@ericbrasiln](http://www.twitter.com/ericbrailn) 
+
+### [Orcid](https://orcid.org/0000-0001-5067-8475) - [Lattes](http://lattes.cnpq.br/6853705640900524)
+
+### [Site pessoal](https://ericbrasiln.github.io)
+
+---
+class: bg_yellow, middle, center
+
+```{r, out.width="25%"}
+knitr::include_graphics("img/logo_hist.png")
+```
+
+## Curso de Licenciatura em História
+
+### Instituto de Humanidades e Letras do campus dos Malês, Unilab
+
+### [Site do curso](historia.males.unilab.edu.br/) 
+
+### email: [historia.ba@unilab.edu.br ](mailto:historia.ba@unilab.edu.br)
+
+```{r, out.width="22%"}
+knitr::include_graphics("img/logo_unilab.png")
+```
+
+---
+class: bg_yellow, middle, center
+
+```{r, out.width="20%"}
+knitr::include_graphics("img/logo_MA_color.png")
+```
+
+## Laboratório de Humanidades Digitais da UFBA
+
+### Twitter: [@labhdufba](https://twitter.com/labhdufba) 
+
+### Instagram: [@labhdufba](http://instagram.com/labhdufba)
+
+### Github: [https://github.com/LABHDUFBA](https://github.com/LABHDUFBA)
+
+---
+class: title-slide-final, middle, center
+
+# Obrigado, gente!
+
+.pull-left[
+```{r, out.width="90%"}
+knitr::include_graphics("https://media2.giphy.com/media/3o6wNIV9FP28JIleyk/giphy.gif?cid=ecf05e47zu5xdrqbq7ehu5dmzo76n6nqww430nqs4z5ppy8b&rid=giphy.gif&ct=g")
+```
+]
+.pull-right[
+<br>
+## Agradecimentos especiais:
+<br>
+
+### À Olivia pelo convite e aos participantes pela escuta e debate.
+]
